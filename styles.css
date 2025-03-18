@@ -1,0 +1,77 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header span {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url(karan\ photo\ pp.jpg) no-repeat center/cover;
+    margin: 20px auto;
+    border: 4px solid #fff;
+}
+
+.about, .skills, .projects, .resume, .contact, .social {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.projects ul, .social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li, .social li {
+    margin: 5px 0;
+}
+
+.projects a, .social a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
